@@ -1,0 +1,26 @@
+.headline {
+    width: 840px;
+    margin: auto;
+    text-align: center;
+
+    h2 {
+        @include text($size: 64px, $space: -4%, $weight: 600);
+    }
+
+    div {
+        height: 80px;
+        padding: 8px;
+
+        input {
+            &::placeholder {
+                @include text($size: 14px, $weight: 500, $opacity: 0.4, $space: -2%);
+            }
+
+            &:focus {
+                border: none !important;
+                outline: none !important;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,12 @@
+header {
+    ul {
+        list-style: none;
+
+        &:nth-child(2) {
+            li {
+                @include text($weight: 500, $size: 16px);
+                letter-spacing: -2%;
+            }
+        }
+    }
+}

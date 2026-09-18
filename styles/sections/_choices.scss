@@ -1,0 +1,63 @@
+.choices {
+    .left {
+        .my-rows {
+            height: 200px;
+
+            span {
+                width: 290px;
+            }
+
+            .context {
+                h3 {
+                    @include text($size: 24px, $space: -4%, $weight: 600);
+                }
+
+                .user-info {
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    h4 {
+                        @include text($size: 16px, $weight: 700, $space: -2%);
+                    }
+
+                    p {
+                        @include text($weight: 500, $size: 14px, $space: -2%, $opacity: 0.6);
+                    }
+                }
+            }
+        }
+    }
+
+    .right {
+        width: 400px;
+
+        .first {
+            h3 {
+                @include text($size: 32px, $space: -4%, $weight: 600);
+            }
+
+            ul li {
+                height: 120px;
+
+                span {
+                    width: 180px;
+                }
+
+                h4 {
+                    @include text($size: 20px, $height: 28px, $space: -4%, $weight: 600);
+                }
+
+                p {
+                    @include text($size: 14px, $weight: 500, $space: -2%, $opacity: 0.6);
+                }
+            }
+        }
+    }
+
+    .container-fluid .my-col {
+        height: 64px;
+        width: 64px;
+    }
+}

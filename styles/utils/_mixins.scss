@@ -1,0 +1,11 @@
+@mixin text($color: black, $size: normal, $weight: 400, $opacity: 1, $space: 0, $height: 100%) {
+    color: $color;
+    opacity: $opacity;
+    letter-spacing: $space;
+    line-height: $height;
+
+    font: {
+        size: $size;
+        weight: $weight;
+    }
+}

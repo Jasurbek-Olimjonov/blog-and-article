@@ -1,0 +1,69 @@
+.inbox {
+    height: 442px;
+    margin: 100px 0;
+
+    div {
+        gap: 25px;
+        overflow: hidden;
+
+        h1 {
+            @include text($size: 48px, $weight: 600);
+            letter-spacing: -4%;
+        }
+
+        p {
+            @include text($opacity: 0.6);
+            text-align: center;
+            width: 68%;
+            line-height: 28px;
+        }
+
+        .d-flex {
+            width: 50%;
+            padding: 10px;
+            height: 80px;
+            gap: 0;
+
+            input {
+                width: 140%;
+                padding-left: 20px;
+
+                &:focus {
+                    border: none !important;
+                    outline: none !important;
+                }
+            }
+
+            button {
+                @include text(white, 14px, 600);
+                letter-spacing: -2%;
+            }
+        }
+
+        img {
+            position: absolute;
+
+            &:nth-child(4) {
+                bottom: -15%;
+                width: 400px;
+                left: -8%;
+                transform: rotate(27deg);
+            }
+
+            &:nth-child(5) {
+                bottom: 28%;
+                right: 18%;
+                width: 50px;
+                transform: rotate(-32deg);
+            }
+
+            &:nth-child(6) {
+                bottom: -23%;
+                right: -8%;
+                width: 270px;
+            }
+
+
+        }
+    }
+}

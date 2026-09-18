@@ -1,0 +1,44 @@
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./utils/utilities";
+
+@import "./sections/footer";
+@import "./sections/header";
+@import "./sections/inbox";
+@import "./sections/choices";
+@import "./sections/headline";
+
+* {
+    padding: 0;
+    font-size: 16px;
+    margin: 0;
+    box-sizing: border-box !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.row,
+.container,
+ul,
+li
+span {
+    margin: 0;
+    padding: 0;
+}
+
+body>* {
+    padding: 0 80px !important;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Inter";
+}
+
+:root {
+    font-size: 60px;
+}
+

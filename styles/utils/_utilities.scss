@@ -1,0 +1,20 @@
+.no-margin {
+    margin: $needMargin;
+}
+
+.no-padding {
+    padding: $needPadding;
+}
+
+.ally-color {
+    color: $allyColor;
+    font-size: inherit;
+}
+
+.my-bg {
+    background-color: $primaryColor;
+}
+
+p {
+    @include text($height: 28px, $opacity: 0.6);
+}
