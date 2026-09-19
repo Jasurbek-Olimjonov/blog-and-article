@@ -1,9 +1,9 @@
-# Guide Toward Chef
+# Blog List Page
 
 A food blog / magazine-style landing page built as a front-end practice project, focused on translating a design into a pixel-close layout using Bootstrap's utility classes.
 
 ## Live Demo
-[View live site](https://jasurbek-olimjonov.github.io/guide-toward-chef/)
+[View live site](https://jasurbek-olimjonov.github.io/blog-list-page1/)
 
 ## Overview
 This project recreates a full-page food blog layout — hero section, article content, a call-to-action subscribe block, and a recipe card grid — using Bootstrap 5 as the primary framework, extended with custom SASS where Bootstrap's utilities fell short.
