@@ -8,4 +8,4 @@ Bootstrap's utilities couldn't cleanly express — font staff, sizing and fine-g
 
 ## Live URL
 
-https://jasurbek-olimjonov.github.io/blog-and-article
+<a href="https://jasurbek-olimjonov.github.io/blog-and-article" target="_blank">Click here to view live</a>
