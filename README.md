@@ -1,6 +1,6 @@
 # Blog List Page
 
-A food blog / magazine-style landing page built as a front-end practice project, focused on translating a design into a pixel-close layout using Bootstrap's utility classes.
+A food blog list / magazine-style landing page built as a front-end practice project, focused on translating a design into a pixel-close layout using Bootstrap's utility classes and SASS.
 
 ## Live Demo
 [View live site](https://jasurbek-olimjonov.github.io/blog-list-page1/)
@@ -18,17 +18,12 @@ Built primarily with Bootstrap (flex and positioning utilities) to deepen hands-
 
 ## Project Structure
 ```
-guide-toward-chef/
+blog-list-page1/
 ├── assets/
 │   ├── images/
 │   └── svg/
 ├── styles/
 │   ├── sections/
-│   │   ├── _choices.scss
-│   │   ├── _footer.scss
-│   │   ├── _header.scss
-│   │   ├── _headline.scss
-│   │   ├── _inbox.scss
 │   ├── utils/
 │   │   ├── _mixins.scss
 │   │   ├── _utilities.scss
@@ -45,7 +40,7 @@ guide-toward-chef/
 Clone the repo and open `index.html` in your browser — or, if you're editing the SASS:
 ```bash
 git clone https://github.com/Jasurbek-Olimjonov/blog-list-page1.git
-cd guide-toward-chef
+cd blog-list-page1
 # compile SASS if using a live-sass-compiler or similar
 ```
 
