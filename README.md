@@ -44,7 +44,7 @@ guide-toward-chef/
 ## Getting Started
 Clone the repo and open `index.html` in your browser — or, if you're editing the SASS:
 ```bash
-git clone https://github.com/Jasurbek-Olimjonov/blog-and-article.git
+git clone https://github.com/Jasurbek-Olimjonov/blog-list-page1.git
 cd guide-toward-chef
 # compile SASS if using a live-sass-compiler or similar
 ```
