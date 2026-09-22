@@ -3,7 +3,7 @@
 A food blog list / magazine-style landing page built as a front-end practice project, focused on translating a design into a pixel-close layout using Bootstrap's utility classes and SASS.
 
 ## Live Demo
-[View live site](https://jasurbek-olimjonov.github.io/blog-list-page1/)
+[View live site](https://jasurbek-olimjonov.github.io/food-market1-blog-list-page/)
 
 ## Overview
 This project recreates a full-page food blog layout — hero section, article content, a call-to-action subscribe block, and a recipe card grid — using Bootstrap 5 as the primary framework, extended with custom SASS where Bootstrap's utilities fell short.
@@ -39,8 +39,8 @@ blog-list-page1/
 ## Getting Started
 Clone the repo and open `index.html` in your browser — or, if you're editing the SASS:
 ```bash
-git clone https://github.com/Jasurbek-Olimjonov/blog-list-page1.git
-cd blog-list-page1
+git clone https://github.com/Jasurbek-Olimjonov/food-market1-blog-list-page.git
+cd food-market1-blog-list-page
 # compile SASS if using a live-sass-compiler or similar
 ```
 
