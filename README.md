@@ -18,7 +18,7 @@ Built primarily with Bootstrap (flex and positioning utilities) to deepen hands-
 
 ## Project Structure
 ```
-blog-list-page1/
+food-market1-blog-list-page/
 ├── assets/
 │   ├── images/
 │   └── svg/
